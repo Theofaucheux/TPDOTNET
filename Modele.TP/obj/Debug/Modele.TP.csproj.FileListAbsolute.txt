@@ -1,0 +1,14 @@
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\Database.mdf
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\Database_log.ldf
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\Modele.TP.dll.config
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\Modele.TP.dll
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\Modele.TP.pdb
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\EntityFramework.dll
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\EntityFramework.xml
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\obj\Debug\Modele.TP.csprojAssemblyReference.cache
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\obj\Debug\Modele.TP.csproj.CoreCompileInputs.cache
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\obj\Debug\Modele.TP.csproj.CopyComplete
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\obj\Debug\Modele.TP.dll
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Modele.TP\obj\Debug\Modele.TP.pdb
