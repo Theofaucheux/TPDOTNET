@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Modele.Faucheux.Entities.Classe>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NomEtablissement)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Niveau)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomEtablissement)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Niveau)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ClasseID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ClasseID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ClasseID })
+        </td>
+    </tr>
+}
+
+</table>

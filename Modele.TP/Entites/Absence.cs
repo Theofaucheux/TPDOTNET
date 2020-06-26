@@ -10,7 +10,6 @@ namespace Modele.Faucheux.Entities
         [Key]
         public int AbsenceID { get; set; }
 
-        [Timestamp]
         [Required]
         public DateTime DateAbsence { get; set; }
 
@@ -21,5 +20,18 @@ namespace Modele.Faucheux.Entities
 
         [ForeignKey("EleveID")]
         public Eleve Eleve { get; set; }
+
+        public Absence()
+        {
+        }
+
+        public Absence(int absenceID, DateTime dateAbsence, string motif, int eleveID, Eleve eleve)
+        {
+            AbsenceID = absenceID;
+            DateAbsence = dateAbsence;
+            Motif = motif;
+            EleveID = eleveID;
+            Eleve = eleve;
+        }
     }
 }

@@ -14,7 +14,6 @@ namespace Modele.Faucheux.Entities
         [Required]
         public string Matiere { get; set; }
 
-        [Timestamp]
         [Required]
         public DateTime DateNote { get; set; }
 
@@ -29,5 +28,19 @@ namespace Modele.Faucheux.Entities
 
         [ForeignKey("EleveID")]
         public Eleve Eleve { get; set; }
+
+        public Note()
+        {
+        }
+
+        public Note(int noteID, string matiere, DateTime dateNote, string appreciation, int valNote, Eleve eleve)
+        {
+            NoteID = noteID;
+            Matiere = matiere;
+            DateNote = dateNote;
+            Appreciation = appreciation;
+            ValNote = valNote;
+            Eleve = eleve;
+        }
     }
 }

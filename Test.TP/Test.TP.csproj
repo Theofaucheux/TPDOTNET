@@ -66,6 +66,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Bussiness.TP\Bussiness.TP.csproj">
+      <Project>{16d1341e-54ff-40d3-a04c-a2535478cde8}</Project>
+      <Name>Bussiness.TP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Modele.TP\Modele.TP.csproj">
       <Project>{16bdb6de-29d1-4991-a8fd-aea1ec802261}</Project>
       <Name>Modele.TP</Name>

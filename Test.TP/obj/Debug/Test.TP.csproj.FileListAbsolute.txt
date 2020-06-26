@@ -25,3 +25,6 @@ C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\obj\Debug\Test.TP.csp
 C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\obj\Debug\Test.TP.csproj.CopyComplete
 C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\obj\Debug\Test.TP.dll
 C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\obj\Debug\Test.TP.pdb
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\bin\Debug\Bussiness.TP.dll
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\bin\Debug\Bussiness.TP.pdb
+C:\Users\theof\source\repos\ProjetStudent.Faucheux\Test.TP\bin\Debug\Bussiness.TP.dll.config

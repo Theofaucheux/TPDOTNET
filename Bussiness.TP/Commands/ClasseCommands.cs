@@ -25,7 +25,7 @@ namespace Bussiness.TP.Commands
             if (uptCla != null)
             {
                 uptCla.Niveau = c.Niveau;
-                uptCla.Niveau = c.NomEtablissement;
+                uptCla.NomEtablissement = c.NomEtablissement;
             }
             _context.SaveChanges();
         }
@@ -39,5 +39,7 @@ namespace Bussiness.TP.Commands
             }
             _context.SaveChanges();
         }
+
+
     }
 }

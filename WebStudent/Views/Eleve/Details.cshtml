@@ -1,0 +1,109 @@
+﻿@model Modele.Faucheux.Entities.Eleve
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Eleve</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Classe.NomEtablissement)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Classe.NomEtablissement)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Prenom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Prenom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateNaissance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateNaissance)
+        </dd>
+
+        <h4>Notes : </h4>
+        <table class="table">
+            <tr>
+                <th>
+                    Matiere
+                </th>
+                <th>
+                    Date Note
+                </th>
+                <th>
+                    Appreciation
+                </th>
+                <th>
+                    Valeur Note
+                </th>
+            </tr>
+            @foreach (var item in Model.lNote)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Matiere)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateNote)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Appreciation)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValNote)
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <h4>Absences : </h4>
+        <table class="table">
+            <tr>
+                <th>
+                    Motif
+                </th>
+                <th>
+                    Date Absence
+                </th>
+                <th></th>
+            </tr>
+            @foreach (var item in Model.lAbsence)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Motif)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DateAbsence)
+                    </td>
+                </tr>
+            }
+        </table>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EleveID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

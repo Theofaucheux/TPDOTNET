@@ -5,9 +5,8 @@ namespace Modele.Faucheux
 {
     public class Context : DbContext
     {
-        public Context() : base("name=ConnexionString")
+        public Context() : base("name=connectionString")
         {
-
         }
 
         public DbSet<Classe> Classes { get; set; }
